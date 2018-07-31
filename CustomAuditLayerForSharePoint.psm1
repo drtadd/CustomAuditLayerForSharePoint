@@ -1,5 +1,4 @@
 # Implement your module commands in this script.
-
 function Test-ConnectionToAuditLayer
 {
     param

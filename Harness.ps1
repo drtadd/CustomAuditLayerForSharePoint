@@ -1,5 +1,7 @@
 $ModuleName = "CustomAuditLayerForSharePoint"
 Remove-Module $ModuleName -Force
-Import-Module "C:\Dev\CustomAuditLayerForSharePoint\CustomAuditLayerForSharePoint.psd1"
+
+$ModulePath = "C:\Dev\CustomAuditLayerForSharePoint\CustomAuditLayerForSharePoint.psd1"
+Import-Module $ModulePath
 
 Get-Command -Module $ModuleName
